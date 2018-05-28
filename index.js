@@ -14,7 +14,7 @@ import Header from './src/components/header';
 // Create a registerComponent
 const App = () => (
     //<Text> Some Text </Text>
-    <Header />
+    <Header headerText = {'Albums'} />
   );
 
 // Render it to device
